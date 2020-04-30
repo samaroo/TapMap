@@ -3,18 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30CB11830056A21A88391314 /* Pods_TapMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C26190FA3E3CD202924F0AF /* Pods_TapMap.framework */; };
+		AC110E0F238A021E009A6B65 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC110E0E238A021E009A6B65 /* InfoViewController.swift */; };
 		AC503D14238269CE00391F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC503D13238269CE00391F03 /* AppDelegate.swift */; };
 		AC503D16238269CE00391F03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC503D15238269CE00391F03 /* SceneDelegate.swift */; };
 		AC503D18238269CE00391F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC503D17238269CE00391F03 /* ViewController.swift */; };
 		AC503D1B238269CE00391F03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC503D19238269CE00391F03 /* Main.storyboard */; };
-		AC503D1D238269CE00391F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC503D1C238269CE00391F03 /* Assets.xcassets */; };
 		AC503D20238269CE00391F03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC503D1E238269CE00391F03 /* LaunchScreen.storyboard */; };
 		AC503D2B238269CE00391F03 /* TapMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC503D2A238269CE00391F03 /* TapMapTests.swift */; };
 		AC503D36238269CE00391F03 /* TapMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC503D35238269CE00391F03 /* TapMapUITests.swift */; };
+		AC5D3B6B2384AB4D00F4115D /*  EventCreaterTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D3B6A2384AB4D00F4115D /*  EventCreaterTableView.swift */; };
+		AC5D3B6D2384B02600F4115D /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D3B6C2384B02600F4115D /* EventCell.swift */; };
+		AC5D3B712384B1E700F4115D /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D3B702384B1E700F4115D /* EventType.swift */; };
+		AC5D3B752384FB4000F4115D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC5D3B742384FB4000F4115D /* GoogleService-Info.plist */; };
+		AC5D89D62389B0C00007B94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5D89D52389B0C00007B94B /* Assets.xcassets */; };
+		AC93A5E32385FD510047D411 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93A5E22385FD510047D411 /* Event.swift */; };
+		AC93A5E5238628C30047D411 /* EventAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC93A5E4238628C30047D411 /* EventAnnotation.swift */; };
+		ACD5215D23851CC000EC78DE /* FormVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD5215C23851CC000EC78DE /* FormVCViewController.swift */; };
+		AF24E4FE23C961C800A55F9D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF24E4FD23C961C800A55F9D /* SearchViewController.swift */; };
+		AF24E50023CBF3C300A55F9D /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF24E4FF23CBF3C300A55F9D /* SearchCell.swift */; };
+		AFC6293523BE96C500C477BC /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6293423BE96C500C477BC /* FilterViewController.swift */; };
+		AFC6293723C1DCA000C477BC /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC6293623C1DC9F00C477BC /* EventCollectionViewCell.swift */; };
+		D7CAC3BA51EA12143BE775CA /* Pods_TapMapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2F44AFCEC41C1908FFCAEB /* Pods_TapMapTests.framework */; };
+		F25B338AE48C7B9031742EB7 /* Pods_TapMapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654977B85A83FB57CD4E0430 /* Pods_TapMapUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002FD407456D49064E7CEB8A /* Pods-TapMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapMap/Pods-TapMap.release.xcconfig"; sourceTree = "<group>"; };
+		1A2D68F0D74F5960FD7541C1 /* Pods-TapMapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapMapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapMapTests/Pods-TapMapTests.release.xcconfig"; sourceTree = "<group>"; };
+		51723F7D3EEC3CE103C16955 /* Pods-TapMapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapMapUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapMapUITests/Pods-TapMapUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F2F44AFCEC41C1908FFCAEB /* Pods_TapMapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapMapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CFF3C8BC2A6C73B06DBBBF /* Pods-TapMapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapMapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapMapUITests/Pods-TapMapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		654977B85A83FB57CD4E0430 /* Pods_TapMapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapMapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C26190FA3E3CD202924F0AF /* Pods_TapMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC110E0E238A021E009A6B65 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		AC503D10238269CE00391F03 /* TapMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC503D13238269CE00391F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC503D15238269CE00391F03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AC503D17238269CE00391F03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC503D1A238269CE00391F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC503D1C238269CE00391F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC503D1F238269CE00391F03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC503D21238269CE00391F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC503D26238269CE00391F03 /* TapMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +71,20 @@
 		AC503D31238269CE00391F03 /* TapMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC503D35238269CE00391F03 /* TapMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMapUITests.swift; sourceTree = "<group>"; };
 		AC503D37238269CE00391F03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5D3B6A2384AB4D00F4115D /*  EventCreaterTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " EventCreaterTableView.swift"; sourceTree = "<group>"; };
+		AC5D3B6C2384B02600F4115D /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		AC5D3B702384B1E700F4115D /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
+		AC5D3B742384FB4000F4115D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../Google-service/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC5D89D52389B0C00007B94B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC93A5E22385FD510047D411 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		AC93A5E4238628C30047D411 /* EventAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAnnotation.swift; sourceTree = "<group>"; };
+		ACD5215C23851CC000EC78DE /* FormVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormVCViewController.swift; sourceTree = "<group>"; };
+		AF24E4FD23C961C800A55F9D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AF24E4FF23CBF3C300A55F9D /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		AFC6293423BE96C500C477BC /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		AFC6293623C1DC9F00C477BC /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		E1C80CB383DD5F0D949201F9 /* Pods-TapMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapMap/Pods-TapMap.debug.xcconfig"; sourceTree = "<group>"; };
+		F759736A95591ACBA26C3D94 /* Pods-TapMapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapMapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapMapTests/Pods-TapMapTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30CB11830056A21A88391314 /* Pods_TapMap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CAC3BA51EA12143BE775CA /* Pods_TapMapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F25B338AE48C7B9031742EB7 /* Pods_TapMapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75EC05C5D04844F600E24D7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C26190FA3E3CD202924F0AF /* Pods_TapMap.framework */,
+				5F2F44AFCEC41C1908FFCAEB /* Pods_TapMapTests.framework */,
+				654977B85A83FB57CD4E0430 /* Pods_TapMapUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A41D642A3411ED38F9B61CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1C80CB383DD5F0D949201F9 /* Pods-TapMap.debug.xcconfig */,
+				002FD407456D49064E7CEB8A /* Pods-TapMap.release.xcconfig */,
+				F759736A95591ACBA26C3D94 /* Pods-TapMapTests.debug.xcconfig */,
+				1A2D68F0D74F5960FD7541C1 /* Pods-TapMapTests.release.xcconfig */,
+				62CFF3C8BC2A6C73B06DBBBF /* Pods-TapMapUITests.debug.xcconfig */,
+				51723F7D3EEC3CE103C16955 /* Pods-TapMapUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC503D07238269CE00391F03 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				AC503D29238269CE00391F03 /* TapMapTests */,
 				AC503D34238269CE00391F03 /* TapMapUITests */,
 				AC503D11238269CE00391F03 /* Products */,
+				A41D642A3411ED38F9B61CAC /* Pods */,
+				75EC05C5D04844F600E24D7D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +166,22 @@
 				AC503D13238269CE00391F03 /* AppDelegate.swift */,
 				AC503D15238269CE00391F03 /* SceneDelegate.swift */,
 				AC503D17238269CE00391F03 /* ViewController.swift */,
+				AC5D3B6A2384AB4D00F4115D /*  EventCreaterTableView.swift */,
+				ACD5215C23851CC000EC78DE /* FormVCViewController.swift */,
+				AC110E0E238A021E009A6B65 /* InfoViewController.swift */,
+				AFC6293423BE96C500C477BC /* FilterViewController.swift */,
+				AF24E4FD23C961C800A55F9D /* SearchViewController.swift */,
+				AC93A5E4238628C30047D411 /* EventAnnotation.swift */,
+				AFC6293623C1DC9F00C477BC /* EventCollectionViewCell.swift */,
+				AC5D3B6C2384B02600F4115D /* EventCell.swift */,
+				AF24E4FF23CBF3C300A55F9D /* SearchCell.swift */,
+				AC5D3B702384B1E700F4115D /* EventType.swift */,
+				AC93A5E22385FD510047D411 /* Event.swift */,
 				AC503D19238269CE00391F03 /* Main.storyboard */,
-				AC503D1C238269CE00391F03 /* Assets.xcassets */,
 				AC503D1E238269CE00391F03 /* LaunchScreen.storyboard */,
+				AC5D89D52389B0C00007B94B /* Assets.xcassets */,
 				AC503D21238269CE00391F03 /* Info.plist */,
+				AC5D3B742384FB4000F4115D /* GoogleService-Info.plist */,
 			);
 			path = TapMap;
 			sourceTree = "<group>";
@@ -135,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC503D3A238269CE00391F03 /* Build configuration list for PBXNativeTarget "TapMap" */;
 			buildPhases = (
+				0F31D3745278C60DB262B331 /* [CP] Check Pods Manifest.lock */,
 				AC503D0C238269CE00391F03 /* Sources */,
 				AC503D0D238269CE00391F03 /* Frameworks */,
 				AC503D0E238269CE00391F03 /* Resources */,
+				15A3C0A89CDD52F1DE212A0D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC503D3D238269CE00391F03 /* Build configuration list for PBXNativeTarget "TapMapTests" */;
 			buildPhases = (
+				789EAD183DD30C349DC27040 /* [CP] Check Pods Manifest.lock */,
 				AC503D22238269CE00391F03 /* Sources */,
 				AC503D23238269CE00391F03 /* Frameworks */,
 				AC503D24238269CE00391F03 /* Resources */,
@@ -170,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC503D40238269CE00391F03 /* Build configuration list for PBXNativeTarget "TapMapUITests" */;
 			buildPhases = (
+				5FCC4906B36C817E13A3D449 /* [CP] Check Pods Manifest.lock */,
 				AC503D2D238269CE00391F03 /* Sources */,
 				AC503D2E238269CE00391F03 /* Frameworks */,
 				AC503D2F238269CE00391F03 /* Resources */,
@@ -233,7 +313,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC503D20238269CE00391F03 /* LaunchScreen.storyboard in Resources */,
-				AC503D1D238269CE00391F03 /* Assets.xcassets in Resources */,
+				AC5D3B752384FB4000F4115D /* GoogleService-Info.plist in Resources */,
+				AC5D89D62389B0C00007B94B /* Assets.xcassets in Resources */,
 				AC503D1B238269CE00391F03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +335,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F31D3745278C60DB262B331 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15A3C0A89CDD52F1DE212A0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapMap/Pods-TapMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TapMap/Pods-TapMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TapMap/Pods-TapMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FCC4906B36C817E13A3D449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapMapUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789EAD183DD30C349DC27040 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapMapTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC503D0C238269CE00391F03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC93A5E32385FD510047D411 /* Event.swift in Sources */,
+				AFC6293723C1DCA000C477BC /* EventCollectionViewCell.swift in Sources */,
 				AC503D18238269CE00391F03 /* ViewController.swift in Sources */,
+				AF24E50023CBF3C300A55F9D /* SearchCell.swift in Sources */,
+				AC93A5E5238628C30047D411 /* EventAnnotation.swift in Sources */,
 				AC503D14238269CE00391F03 /* AppDelegate.swift in Sources */,
+				AC110E0F238A021E009A6B65 /* InfoViewController.swift in Sources */,
+				AFC6293523BE96C500C477BC /* FilterViewController.swift in Sources */,
+				AC5D3B6D2384B02600F4115D /* EventCell.swift in Sources */,
+				AF24E4FE23C961C800A55F9D /* SearchViewController.swift in Sources */,
+				ACD5215D23851CC000EC78DE /* FormVCViewController.swift in Sources */,
 				AC503D16238269CE00391F03 /* SceneDelegate.swift in Sources */,
+				AC5D3B712384B1E700F4115D /* EventType.swift in Sources */,
+				AC5D3B6B2384AB4D00F4115D /*  EventCreaterTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,17 +598,20 @@
 		};
 		AC503D3B238269CE00391F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C80CB383DD5F0D949201F9 /* Pods-TapMap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UCF4K36X9Q;
 				INFOPLIST_FILE = TapMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.samaroo.TapMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = TapMap/TapMapBridge.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,17 +619,20 @@
 		};
 		AC503D3C238269CE00391F03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002FD407456D49064E7CEB8A /* Pods-TapMap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UCF4K36X9Q;
 				INFOPLIST_FILE = TapMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.samaroo.TapMap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = TapMap/TapMapBridge.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -468,6 +640,7 @@
 		};
 		AC503D3E238269CE00391F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F759736A95591ACBA26C3D94 /* Pods-TapMapTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +663,7 @@
 		};
 		AC503D3F238269CE00391F03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A2D68F0D74F5960FD7541C1 /* Pods-TapMapTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +686,7 @@
 		};
 		AC503D41238269CE00391F03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CFF3C8BC2A6C73B06DBBBF /* Pods-TapMapUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +707,7 @@
 		};
 		AC503D42238269CE00391F03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51723F7D3EEC3CE103C16955 /* Pods-TapMapUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

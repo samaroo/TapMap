@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>669677965919-v9uomifpl1p801l060as1qmhgu6rhjo7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.669677965919-v9uomifpl1p801l060as1qmhgu6rhjo7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyArbRYTDyB_bDXydULnCAaV6vqd-0fu09E</string>
+	<key>GCM_SENDER_ID</key>
+	<string>669677965919</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.samaroo.TapMap</string>
+	<key>PROJECT_ID</key>
+	<string>tapmap-deb38</string>
+	<key>STORAGE_BUCKET</key>
+	<string>tapmap-deb38.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:669677965919:ios:b946ae06b74f82fe4781ea</string>
+	<key>DATABASE_URL</key>
+	<string>https://tapmap-deb38.firebaseio.com</string>
+</dict>
+</plist>
